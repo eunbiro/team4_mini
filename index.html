@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header>
+  <header class="header">
+    
     <div class="header__nav">
       <h1>logo</h1>
       <div class="menu">
@@ -53,46 +54,64 @@
           </ul>
         </nav>
       </div>
-      <div class="login">
-        로그인
+      <div class="menu__login">
+        <button class="button">
+          SIGN IN | JOIN
+        </button>
       </div>
     </div>
     <div class="header__panel"></div>
   </header>
-  <main>
+  <div class="sub__button">
+      <div class="fixed__button">
+        <a href="#">up</a>
+      </div>
+      <div class="fixed__button">
+        <a href="#">down</a>
+      </div>
+  </div>
+ 
+  <main class="wrap">
     <section class="slider">
-      <div>이벤트/상품</div>
+      <div class="slider__content con">이벤트/상품</div>
     </section>
     <section class="youtube">
-      <div>영화예고편</div>
+      <div class="youtube__content con">영화예고편</div>
     </section>
     <section class="poster">
-      <div>포스터
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="poster__content con">
+        <div>포스터1</div>
+        <div>포스터2</div>
+        <div>포스터3</div>
+        <div>포스터4</div>
       </div>
     </section>
     <section class="soon">
-      <div>개봉예정
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="soon__content con">
+        <div>개봉예정 포스터1</div>
+        <div>개봉예정 포스터2</div>
+        <div>개봉예정 포스터3</div>
+        <div>개봉예정 포스터4</div>
       </div>
     </section>
     <section class="store">
-      <div>굿즈
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="store__content con">
+          <ul>
+            <li>굿즈1</li>
+            <li>굿즈2</li>
+            <li>굿즈3</li>
+            <li>굿즈4</li>
+            <li>굿즈5</li>
+            <li>굿즈6</li>
+          </ul>
       </div>
     </section>
     <section class="banner">
-      <div>배너?</div>
+      <div class="banner__content con">배너?</div>
     </section>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <div class="footer__level1"></div>
+  </footer>
 </body>
 </html>

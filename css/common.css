@@ -2,36 +2,129 @@
 @import url('./reset.css');
 
 .header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.sub__button{
+  position: fixed; 
+  right: 50%; 
+  bottom: 10%; 
+  margin-right: -800px;
+  text-align:center;
+  width: 60px;
+  height: 110px;
+}
+.fixed__button{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  line-height: 70px;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+.fixed__button a{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+.header__nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;   /* 내부 사이사이 틈을 주는거 */
+  height: 100px;
+  align-items: center;
+  padding: 0;
+}
+.header__nav > h1 {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;           /* height랑 line-height를 같이 주면 수직정렬 */
+}
+
+
+.header__nav > .menu > .menu__login {
+  text-align: right;
+}
+
+.header__nav .menu__login > .button {
+  font-size: 1em;
+  padding: 30PX 20px;
+  border: 0;
+  background-color: #FFF;
+  font-weight: bold;
+  width: 168px;
+  height: 100%;
+}
+
+
+.header__nav > .menu {
+  width: calc(100% - 360px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  background-color: aqua;
+}
+
+.header__nav nav {
   width: 100%;
 }
 
-.header__nav {
-  max-width: 1140px;
-  margin: 0 auto;
-  background-color: #222;
-  height: 60px;
+.header__nav nav > .menu__main {
   display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.header__nav h1 {
-  width: 100px;
-}
-
-.menu__main {
-  
-  width: calc(100% - 100px);
-  background-color: rgb(170, 53, 53);
-  height: 60px;
-  display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  font-size: 1.3em;
+  height: 70px;
+  padding: 50px 60px 0;
+}
+.header__panel {
+  height: 280px;
+  display: none;
 }
 
-.login {
-  width: 300px;
+
+
+
+.header__nav > .menu .main__list {
+  position: relative;
+}
+
+.header__nav > .menu .main__list .list__drop {
+  display: none;
+  position: absolute;             /* absolute는 relative를 기준으로 위치를 잡는다. */
+  top: 60px;
+  width: 232px;
+  height: 260px;
+}
+
+.header__nav > .menu .main__list .list__drop > li {
+  padding: 5px 5px 5px 0;
 }
 
 .list__drop {
   display: none;
+}
+
+.header__nav > .menu .main__list .list__drop > li > a {
+  font-size: 0.9rem;
+  font-family: 'Nanum Gothic Coding', monospace, sans-serif;
+  font-weight: bold;
+  color: rgb(26, 26, 26);
+}
+
+
+.footer {
+  height: 680px;
+  background: #335;
 }
