@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url('./reset.css');
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: white;
+  z-index: 2;           /* position이나 flex 사용시에만 사용가능 || 숫자가 낮을 수록 제일 위에 올라옴 */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.header__nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: brown;
+  display: flex;
+}
+
+.header__nav {
+  width: 200px;
+  background-color: blueviolet;
+}
+
+.menu {
+  width: calc(100% - 200px);
+}
+.main__list {
+  background-color: aqua;
+}
+
+.list__drop {
+  display: none;
+}
+
+.login {
+  background-color: blue;
+}
