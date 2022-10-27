@@ -2,38 +2,36 @@
 @import url('./reset.css');
 
 .header {
-  position: fixed;
   width: 100%;
-  height: 60px;
-  background: white;
-  z-index: 2;           /* position이나 flex 사용시에만 사용가능 || 숫자가 낮을 수록 제일 위에 올라옴 */
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
-
 .header__nav {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
-  background-color: brown;
+  background-color: #222;
+  height: 60px;
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.header__nav {
-  width: 200px;
-  background-color: blueviolet;
+.header__nav h1 {
+  width: 100px;
 }
 
-.menu {
-  width: calc(100% - 200px);
+.menu__main {
+  
+  width: calc(100% - 100px);
+  background-color: rgb(170, 53, 53);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
 }
-.main__list {
-  background-color: aqua;
+
+.login {
+  width: 300px;
 }
 
 .list__drop {
   display: none;
-}
-
-.login {
-  background-color: blue;
 }
