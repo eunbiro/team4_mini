@@ -4,7 +4,7 @@
 .header {
   position: fixed;
   width: 100%;
-  background: white;
+  background: #222;
   z-index: 2;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
@@ -60,7 +60,8 @@
   font-size: 1em;
   padding: 30PX 20px;
   border: 0;
-  background-color: #FFF;
+  background-color: #222;
+  color: rgb(167, 20, 20);
   font-weight: bold;
   width: 168px;
   height: 100%;
@@ -89,11 +90,15 @@
   padding: 50px 60px 0;
 }
 .header__panel {
-  height: 280px;
+  height: 100px;
+  background: #222;
   display: none;
 }
 
-
+.list__drop {
+  height: 50px;
+  display: none;
+}
 
 
 .header__nav > .menu .main__list {
@@ -101,7 +106,7 @@
 }
 
 .header__nav > .menu .main__list .list__drop {
-  display: none;
+  /* display: none; */
   position: absolute;             /* absolute는 relative를 기준으로 위치를 잡는다. */
   top: 60px;
   width: 232px;
@@ -112,15 +117,11 @@
   padding: 5px 5px 5px 0;
 }
 
-.list__drop {
-  display: none;
-}
 
 .header__nav > .menu .main__list .list__drop > li > a {
   font-size: 0.9rem;
-  font-family: 'Nanum Gothic Coding', monospace, sans-serif;
   font-weight: bold;
-  color: rgb(26, 26, 26);
+  color: rgb(167, 20, 20);
 }
 
 

@@ -5,7 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="./library/fontawesome-free-6.2.0-web/css/all.min.css">
+  <!-- 애니메이트 -->
+  <link rel="stylesheet" href="./library/animate/animate.min.css">
   <link rel="stylesheet" href="./css/main.css">
+  <!-- 슬라이더 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
   <header class="header">
@@ -18,7 +24,7 @@
             <li class="main__list">
               <a href="#">세계관소개<i class="fa-solid fa-caret-down"></i></a>
               <div>
-                <ul class="list__drop">
+                <ul class="list__drop animate__animated animate__fadeIn">
                   <li><a href="#">마블코믹스</a></li>
                   <li><a href="#">마블시네마틱</a></li>
                 </ul>
@@ -27,7 +33,7 @@
             <li class="main__list">
               <a href="#">캐릭터소개<i class="fa-solid fa-caret-down"></i></a>
               <div>
-                <ul class="list__drop">
+                <ul class="list__drop animate__animated animate__fadeIn">
                   <li><a href="#">마블시네마틱</a></li>
                 </ul>
               </div>
@@ -35,7 +41,7 @@
             <li class="main__list">
               <a href="#">이벤트<i class="fa-solid fa-caret-down"></i></a>
               <div>
-                <ul class="list__drop">
+                <ul class="list__drop animate__animated animate__fadeIn">
                   <li><a href="#">공지</a></li>
                   <li><a href="#">이벤트</a></li>
                 </ul>
@@ -44,7 +50,7 @@
             <li class="main__list">
               <a href="#">영화개봉예정<i class="fa-solid fa-caret-down"></i></a>
               <div>
-                <ul class="list__drop">
+                <ul class="list__drop animate__animated animate__fadeIn">
                   <li><a href="#">포스터</a></li>
                   <li><a href="#">스틸샷</a></li>
                   <li><a href="#">상품소개</a></li>
@@ -75,17 +81,32 @@
     </div>
 
     <section class="slider">
-      <div class="slider__content con">이벤트/상품</div>
+      <div class="slider__content con">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1"></div>
+            <div class="swiper-slide slide2"></div>
+            <div class="swiper-slide slide3"></div>
+          </div>
+          <!-- navigation 버튼 -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- pagination 버튼 -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </section>
     <section class="youtube">
-      <div class="youtube__content con">영화예고편</div>
+      <div class="youtube__content con">
+        <iframe height="315" src="https://www.youtube.com/embed/ku9l1fHo5XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
     <section class="poster">
       <div class="poster__content con">
-        <div>포스터1</div>
-        <div>포스터2</div>
-        <div>포스터3</div>
-        <div>포스터4</div>
+        <div class="poster1"></div>
+        <div class="poster2"></div>
+        <div class="poster3"></div>
+        <div class="poster4"></div>
       </div>
     </section>
     <section class="soon">
