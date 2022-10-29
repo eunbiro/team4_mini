@@ -1,7 +1,7 @@
 //버튼 업다운
 
-const $btnUp = document.querySelector(".button__up");
-const $btnDown = document.querySelector(".button__down");
+const $btnUp = document.querySelector(".btn__up");
+const $btnDown = document.querySelector(".btn__down");
 
 $btnUp.onclick = () => {
   $('html,body').animate({ scrollTop: 0 }, 500);
@@ -42,4 +42,3 @@ panel.addEventListener('mouseout', () => {
     submenu.style.display = 'none';                         // 마우스 아웃 시 모든 하위메뉴 숨기기
   });
 });
-
