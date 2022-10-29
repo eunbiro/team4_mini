@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <!-- 애니메이트 -->
     <link rel="stylesheet" href="./library/animate/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- 헤더창 -->
@@ -83,7 +84,20 @@
         </div>
         <!-- 슬라이더 -->
         <section class="slider">
-            <div class="slider__content con"></div>
+            <div class="slider__content con">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slide1"></div>
+                      <div class="swiper-slide slide2"></div>
+                      <div class="swiper-slide slide3"></div>
+                    </div>
+                    <!-- navigation 버튼 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- pagination 버튼 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
         </section>
         <!-- 유튜브 -->
         <section class="youtube">
@@ -167,6 +181,9 @@
     </footer>
 
     <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
     <script src="./js/common.js"></script>
 </body>
 </html>
