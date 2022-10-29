@@ -65,9 +65,8 @@
   .youtube {
     height: 605px;
   }
-  /* .youtube__content {
-    background: #18a737;
-  } */
+  .youtube__content {
+  }
 
   /* .soon {
     height: 605px;
@@ -266,3 +265,5 @@
   .banner__content {
     background: #0031b9;
   }
+
+

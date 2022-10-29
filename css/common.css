@@ -44,7 +44,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;   /* 내부 사이사이 틈을 주는거 */
+  justify-content: space-around;   /* 내부 사이사이 틈을 주는거 */
   height: 100px;
   align-items: center;
   padding: 0;
@@ -78,7 +78,7 @@
   flex-direction: row;
   align-items: center;
   height: 100%;
-  
+  padding-top: 10px;
 }
 .menu__main .main__list a {
   color: #FFF;
@@ -121,12 +121,12 @@
 }
 
 .header__nav > .menu .main__list .list__drop > li {
-  padding: 5px 5px 5px 0;
+  padding: 0 5px 5px 5px;
 }
 
 
 .header__nav > .menu .main__list .list__drop > li > a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   color: rgb(236, 29, 36);
 }
