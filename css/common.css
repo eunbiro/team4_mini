@@ -226,6 +226,10 @@
         height: 50px;
     }
 
+    .main__list {
+        font-size: 1rem;
+    }
+
     .header__panel {
         height: 150px;
     }

@@ -102,7 +102,8 @@ section .con {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 50px 0px
+    padding: 10px 50px 0px;
+    align-items: flex-end;
 }
 
 .rel__poster .ov_poster img {
@@ -274,11 +275,11 @@ section .con {
     }
 
     .rel__poster .ov_poster h3 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .rel__poster .ov_poster p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     
     .poster {
@@ -291,7 +292,7 @@ section .con {
 }
 
     .mv__poster h3 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .mv__poster > div {
         width: 49%;
@@ -314,4 +315,5 @@ section .con {
     .store__list li {
         width: 33.33%;
     }
+
 }
