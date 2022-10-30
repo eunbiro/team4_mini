@@ -226,3 +226,79 @@ section .con {
 .store__list img {
     height: 150px;
 }
+
+
+
+@media all and (max-width:768px){ 
+    section .con {
+        max-width: 768px;
+    }
+
+    .slider__content .swiper-slide.slide1 {
+        background: url(../img/Mevent_01.png);
+        background-size: cover;
+        background-position:center;
+    }
+    
+    .slider__content .swiper-slide.slide2 {
+        background: url(../img/Mevent_01.png);
+        background-size: cover;
+        background-position:center;
+    }
+    
+    .slider__content .swiper-slide.slide3 {
+        background: url(../img/Mevent_01.png);
+        background-size: cover;
+        background-position:center;
+    }
+
+    .youtube {
+        height: 350px;
+    }
+
+    .release {
+        height: 550px;
+    }
+
+    .rel__poster img {
+        height: 350px;
+    }
+    
+    .rel__poster .ov_poster {
+        text-align: center;
+    }
+
+    .rel__poster .ov_poster h3 {
+        font-size: 0.8rem;
+    }
+
+    .rel__poster .ov_poster p {
+        font-size: 0.8rem;
+    }
+    
+    .poster {
+        height: 405px;
+    }
+
+    .mv__poster h3 {
+        font-size: 0.8rem;
+    }
+
+    .mv__poster img {
+        height: 200px;
+    }
+
+    .store {
+        height: 600px;
+    }
+
+    .store__list ul {
+        flex-wrap: wrap;
+        line-height: 50px;
+        padding: 0px 20px 30px;
+    }
+
+    .store__list li {
+        width: 33.33%;
+    }
+}
