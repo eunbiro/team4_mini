@@ -246,6 +246,15 @@
         margin: 30px 10px 40px;
     }
 
+    .ft__level1 img {
+        width: 150px;
+    }
+
+    .ft__level1 ul li a {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
     .ft__level2 nav {
         justify-content: center;
     }

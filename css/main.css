@@ -260,8 +260,13 @@ section .con {
         height: 550px;
     }
 
+    .rel__poster {
+        padding: 10px 10px 0px
+    }
+
     .rel__poster img {
-        height: 350px;
+        height: 300px;
+        margin-top: 10px;
     }
     
     .rel__poster .ov_poster {
@@ -269,23 +274,31 @@ section .con {
     }
 
     .rel__poster .ov_poster h3 {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .rel__poster .ov_poster p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
     .poster {
-        height: 405px;
+        height: 600px;
     }
+
+    .mv__poster {
+        flex-wrap: wrap;
+    justify-content: space-between;
+}
 
     .mv__poster h3 {
         font-size: 0.8rem;
     }
-
+    .mv__poster > div {
+        width: 49%;
+    }
     .mv__poster img {
         height: 200px;
+        margin-bottom: 20px;
     }
 
     .store {
@@ -295,7 +308,7 @@ section .con {
     .store__list ul {
         flex-wrap: wrap;
         line-height: 50px;
-        padding: 0px 20px 30px;
+        padding: 0px 10px 30px;
     }
 
     .store__list li {
