@@ -86,8 +86,42 @@ section .con {
 .mvclip__content .mvtitle > h1 {
     font-size: 2.5rem;
 }
+/* 
+.clip__menu {
+    position: relative;
+}
+
+.menu__list {
+    overflow: hidden;
+}
+
+.menu__list li {
+    float: left;
+}
+
+.menu__list .btn {
+    font-size: 1.8rem;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu__list .tab_con {
+    display: none;
+    position: absolute;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    width: 1280px;
+    height: 2000px;
+}
 
 
+.menu__list li.tab__on .tab_con {
+    display: block;
+} */
 
 .clip__menu {
     height: 70px;
@@ -95,6 +129,7 @@ section .con {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .clip__rank {
@@ -109,25 +144,81 @@ section .con {
     font-size: 0.9rem;
     padding-left: 10px;
 }
-/* 
-.main__stillshot {
-    height:1610px;
-} */
 
-.main__stillshot ul {
-    height:1610px;
+.sub__con {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sub__con li {
+    width: 30%;
+    height: 400px;
+    background-color: yellowgreen;
+    margin-bottom: 40px;
+}
+
+
+/* 스틸샷 메뉴 */
+.sub__stillshot {
+    /* height:1610px;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     justify-content: space-around;
     align-content: space-around;
+    position: relative; */
+    /* display: none; */
 }
 
-.main__stillshot ul li {
+/* .sub__stillshot li {
     background-color: yellow;
-    width: 390px;
+    width: 320px;
     height: 450px;
+    position: relative;
+} */
+
+/* 영화클립 메뉴 */
+.sub__movieclip {
+    /* height:1610px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+    position: relative; */
+    display: none;
 }
+
+/* .sub__movieclip li {
+    background-color: yellow;
+    width: 320px;
+    height: 450px;
+    position: relative;
+} */
+
+/* 아트워크 메뉴 */
+.sub__artwork {
+    /* height:1610px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+    position: relative; */
+    display: none;
+}
+
+/* .sub__artwork li {
+    background-color: yellow;
+    width: 320px;
+    height: 450px;
+    position: relative;
+} */
+
 
 .page__num {
     background-color: violet;
@@ -182,15 +273,17 @@ section .con {
         background-size: cover;
         background-position:center;
     }
-
-    .main__stillshot ul li {
-        width: 200px;
-        height: 250px;
+    
+    .sub__con li {
+        width: 30%;
+        height: 200px;
+        background-color: yellowgreen;
+        margin-bottom: 40px;
     }
 
-    .main__stillshot ul {
+    .clip__content ul {
         height:900px;
-    }
+    } 
 
     .mvclip {
         height: 1300px;
@@ -220,13 +313,33 @@ section .con {
         background-size: cover;
         background-position:center;
     }
-
-    .main__stillshot ul li {
-        width: 200px;
+    .sub__con li {
+        width: 30%;
         height: 250px;
+        background-color: yellowgreen;
+        margin-bottom: 40px;
     }
 
-    /* .main__stillshot ul {
+    .clip__content ul {
         height:900px;
+    } 
+
+    .mvclip {
+        height: 1300px;
+    }
+}
+
+@media all and (max-width:670px){
+    /* .main__stillshot ul li {
+        width: 110px;
+        height: 150px;
+    }
+
+    .main__stillshot ul {
+        height: 500px;
     } */
+
+    .mvclip {
+        height: 900px;
+    }
 }
