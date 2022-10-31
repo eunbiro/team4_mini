@@ -226,7 +226,7 @@ section .con {
         height: 250px;
     }
 
-    /* .main__stillshot ul {
+    .main__stillshot ul {
         height:900px;
-    } */
+    }
 }
