@@ -30,12 +30,12 @@ menu.addEventListener('mouseover', () => {
 });
 
 // 마우스 치울 때 하위 메뉴 숨기기
-header.addEventListener('mouseout', () => {
-  panel.style.display = 'none';                             // 마우스 아웃 시 panel 숨기기
-  subMenus.forEach(submenu => {
-    submenu.style.display = 'none';                         // 마우스 아웃 시 모든 하위메뉴 숨기기
-  });
-});
+// header.addEventListener('mouseout', () => {
+//   panel.style.display = 'none';                             // 마우스 아웃 시 panel 숨기기
+//   subMenus.forEach(submenu => {
+//     submenu.style.display = 'none';                         // 마우스 아웃 시 모든 하위메뉴 숨기기
+//   });
+// });
 panel.addEventListener('mouseout', () => {
   panel.style.display = 'none';                             // 마우스 아웃 시 panel 숨기기
   subMenus.forEach(submenu => {
