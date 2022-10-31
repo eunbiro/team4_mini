@@ -102,7 +102,7 @@ section .con {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 50px 0px;
+    padding: 50px 50px 0px;
     align-items: flex-end;
 }
 
@@ -114,28 +114,41 @@ section .con {
     transform: scale(1.1);
 }
 
-.rel__poster .ov_poster h3, .rel__poster .ov_poster p{
+/* .rel__poster .ov_poster h3, .rel__poster .ov_poster p{
     border-left: 2px solid #fff;
     background: #EC1D24;
     background: -moz-linear-gradient(left, #EC1D24 0%, #151515 100%, #151515 100%);
     background: -webkit-linear-gradient(left, #EC1D24 0%, #151515 100%, #151515 100%);
     background: linear-gradient(to right, #EC1D24 0%, #151515 100%, #151515 100%);
-}
+} */
 
-.rel__poster .ov_poster h3 {
+/* .rel__poster .ov_poster h3 {
     padding-top: 5px;
     padding-left: 5px;
     font-weight: bold;
     letter-spacing: 0.5px;
     color: #fff;
+} */
+.rel__poster .ov_poster {
+    text-align: center;
+    position: relative;
+    width: 310px;
+}
+.rel__poster .ov_poster p {
+    top: 1%;
+    left: 1%;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #e0dfdc;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    opacity: 0;
 }
 
-.rel__poster .ov_poster p {
-    padding-left: 7px;
-    padding-bottom: 5px;
-    font-size: 0.9rem;
-    color: #fff;
-}
 
 .rel__poster img {
     height: 450px;
