@@ -26,9 +26,3 @@ $(".menu__art").click(function() {
   $(".menu__clip").css("border-bottom", "1px solid #666")
   $(".menu__still").css("border-bottom", "1px solid #666")
 })
-
-$(document).ready(function () {
-  $(".ov_poster img").hover(function () {
-    $(".ov_poster p").css("opacity", "1")
-  })
-})

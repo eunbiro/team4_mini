@@ -110,9 +110,9 @@ section .con {
     transition: all 0.2s linear;
 }
 
-.rel__poster .ov_poster img:hover {
+/* .rel__poster .ov_poster img:hover {
     transform: scale(1.1);
-}
+} */
 
 /* .rel__poster .ov_poster h3, .rel__poster .ov_poster p{
     border-left: 2px solid #fff;
@@ -149,7 +149,6 @@ section .con {
     opacity: 0;
 }
 
-
 .rel__poster img {
     height: 450px;
 }
@@ -180,16 +179,24 @@ section .con {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 50px 50px 0px;
+    padding: 20px 50px 0px;
     text-align: center;
     align-items: flex-end;
 }
 
+.mv__poster > div {
+    position: relative;
+}
+
 .mv__poster h3 {
-    padding: 5px 0 5px;
+    position: absolute;
     font-weight: bold;
     letter-spacing: 0.5px;
     color: #fff;
+    width: 270px;
+    top: 105%;
+    left: -10%;
+    
     text-align: center;
 }
 
@@ -301,17 +308,19 @@ section .con {
 
     .mv__poster {
         flex-wrap: wrap;
-    justify-content: space-between;
+        justify-content: space-between;
 }
 
     .mv__poster h3 {
         font-size: 0.9rem;
+        top: 96%;
     }
     .mv__poster > div {
         width: 49%;
     }
     .mv__poster img {
         height: 200px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
 
