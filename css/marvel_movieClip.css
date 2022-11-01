@@ -76,7 +76,7 @@ section .con {
 }
 
 .mvclip__content .mvtitle {
-    background-color: aqua;
+    background: #151515;
     height: 100px;
     display: flex;
     align-items: center;
@@ -85,6 +85,9 @@ section .con {
 
 .mvclip__content .mvtitle > h1 {
     font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .clip__menu {
