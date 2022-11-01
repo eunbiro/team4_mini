@@ -9,12 +9,30 @@ body .world_wrap .world_1 {
     width: 600px;
     height: 585px;
     margin: 0 auto;
+    background-size: 100%;
     background-image: url(./img/worldview1.png);
     display: flex;
     align-items: center;
     margin-bottom: 30px;
     /* box-shadow: 0px 0px 30px rgb(236, 29, 36); */
 }
+
+
+/* 
+body .world_wrap .world_1:hover {
+    background-size: 110%;
+} */
+
+
+
+/* .a img{
+    transition: all;
+}
+
+.a:hover img {
+    transform: scale(1.5);
+} */
+
 
 body .world_wrap .world_2 {
     width: 600px;
