@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+}
+
+header {
+    width:100%;
+    height:80px;
+    border:1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.world_wrap {
+    position: relative;
+}
+
+.w1_text {
+    text-align: center;
+    position: absolute;
+    /* position: relative; */
+    /* left: -50%; */
+    transform: translate( 190%, -650%);
+    width: 250px;
+    height: 50px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.589);
+    
+}
+
+.w2_text {
+    text-align: center;
+    position: absolute;
+    /* position: relative; */
+    /* left: 50%; */
+    transform: translate( 190%, -650%);
+    width: 250px;
+    height: 50px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.589);
+    
+}
+
+.w3_text {
+    text-align: center;
+    position: absolute;
+    /* position: relative; */
+    /* left: 50%; */
+    transform: translate( 190%, -950%);
+    width: 250px;
+    height: 50px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.589);
+    
+}
+
+.w4_text {
+    text-align: center;
+    position: absolute;
+    /* position: relative; */
+    /* left: 50%; */
+    transform: translate( 190%, -950%);
+    width: 250px;
+    height: 50px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.589);
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.world_1 {
+    width: 600px;
+    height: 585px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 30px rgb(236, 29, 36);
+    background-image: url(./img/worldview1.png);
+}
+
+.world_2 {
+    width: 600px;
+    height: 585px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 30px rgb(236, 29, 36);
+    background-image: url(./img/worldview2.png);
+}
+
+.world_3 {
+    width: 600px;
+    height: 890px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 30px rgb(236, 29, 36);
+    background-image: url(./img/worldview3.png);
+}
+
+.world_4 {
+    width: 600px;
+    height: 890px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 30px rgb(236, 29, 36);
+    background-image: url(./img/worldview4.png);
+}
+
+/* 55555555555555555555개봉예정작55555555555555555555555555555 */
+
+footer {
+    width:100%;
+    height:60px;
+    border:1px solid #000;
+    margin-top:20px;
+  }
+
+
+  /* /////////////////////////////////////////////////// */
+
+  /* .w1_text {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    cursor: default;
+    height: 100vh;
+    min-height: 35em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-image: url(../../img/worldview1.png);
+} */
+
+/* .w1_text h1 {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+        -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+        -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+        display: inline-block;
+        font-size: 1.75em;
+        opacity: 1;
+        padding: 0.35em 1em;
+        position: relative;
+        z-index: 1;
+} */
+
+.text_a h1:before, .text_a h1:after {
+            -moz-transition: width 0.85s ease;
+            -webkit-transition: width 0.85s ease;
+            -ms-transition: width 0.85s ease;
+            transition: width 0.85s ease;
+            -moz-transition-delay: 0.25s;
+            -webkit-transition-delay: 0.25s;
+            -ms-transition-delay: 0.25s;
+            transition-delay: 0.25s;
+            background: #fff;
+            content: '';
+            display: block;
+            height: 3px;
+            position: absolute;
+            width: 100%;
+}
+
+.text_a h1:before {
+            top: 0;
+            left: 0;
+ }
+.text_a h1:after {
+            bottom: 0;
+            right: 0;
+ }
+
