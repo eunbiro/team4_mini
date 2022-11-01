@@ -1,0 +1,197 @@
+body .world_wrap {
+    background: #222;
+    /* width: 100vw; */
+    margin: 0 auto;
+    padding: 35px;
+}
+
+body .world_wrap .world_p {
+    width: 600px;
+    height: 585px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+body .world_wrap .world_1 a {
+    width: 100%;
+    height: 100%;
+}
+
+body .world_wrap .world_1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/worldview1.png);
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    /* box-shadow: 0px 0px 30px rgb(236, 29, 36); */
+}
+
+body .world_wrap .world_p:hover .world_1 {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.world_1::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(107, 55, 55, 0.61);
+}
+
+.world_p:hover .world_1:before,
+.world_p:focus .world_1:before {
+    display: block;
+}
+
+
+body .world_wrap .world_2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/worldview2.png);
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    /* box-shadow: 0px 0px 30px rgb(236, 29, 36); */
+}
+
+body .world_wrap .world_p:hover .world_2 {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.world_2::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(60, 55, 107, 0.61);
+}
+
+.world_p:hover .world_2:before,
+.world_p:focus .world_2:before {
+    display: block;
+}
+
+body .world_wrap .world_3 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/worldview3.png);
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    /* box-shadow: 0px 0px 30px rgb(236, 29, 36); */
+}
+
+body .world_wrap .world_p:hover .world_3 {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.world_3::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(55, 107, 55, 0.61);
+}
+
+.world_p:hover .world_3:before,
+.world_p:focus .world_3:before {
+    display: block;
+}
+
+body .world_wrap .world_4 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/worldview4.png);
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    /* box-shadow: 0px 0px 30px rgb(236, 29, 36); */
+}
+
+body .world_wrap .world_p:hover .world_4 {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.world_4::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(107, 102, 55, 0.61);
+}
+
+.world_p:hover .world_4:before,
+.world_p:focus .world_4:before {
+    display: block;
+}
+
+/* body .world_wrap .text_a {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center; 
+    position: relative; 
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color: rgba(71, 19, 19, 0.548);
+}
+
+/* body .world_wrap .text_a h1 a {
+    color: #fff;
+}
+
+.text_a h1:before, .text_a h1:after {
+    -moz-transition: width 0.85s ease;
+    -webkit-transition: width 0.85s ease;
+    -ms-transition: width 0.85s ease;
+    transition: width 0.85s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 100%;
+}
+
+.text_a h1:before {
+    top: 0;
+    left: 0;
+}
+.text_a h1:after {
+    bottom: 0;
+    right: 0;
+} */
