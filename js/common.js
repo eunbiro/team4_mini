@@ -1,24 +1,24 @@
 //버튼 업다운
 
-const $btnUp = document.querySelector(".btn__up");
-const $btnDown = document.querySelector(".btn__down");
+const $btnUp = document.querySelector(".btn_up");
+const $btnDown = document.querySelector(".btn_down");
 
 $btnUp.onclick = () => {
   $('html,body').animate({ scrollTop: 0 }, 500);
   // window.scrollTo({top: 0, behavior: "smooth"});
   console.log(1)
-}
+};
 
 $btnDown.onclick = () => {
-	$("html, body").animate({ scrollTop: $(document).height() }, 500);
+	$('html, body').animate({ scrollTop: $(document).height() }, 500);
   console.log(2)
 };
 
 
 /* 1. PC버전 서브메뉴 관련 */
-const menu = document.querySelector('.menu__main')          // 전체 메뉴
-const subMenus = document.querySelectorAll('.list__drop')   // 하위 메뉴
-const panel = document.querySelector('.header__panel')      // 하위 메뉴 나올 때 나오는 판넬
+const menu = document.querySelector('.menu_main')           // 전체 메뉴
+const subMenus = document.querySelectorAll('.list_drop')    // 하위 메뉴
+const panel = document.querySelector('.header_panel')       // 하위 메뉴 나올 때 나오는 판넬
 const header = document.querySelector('.header')            // 전체 헤더
 
 // 마우스 오버 시 하위 메뉴 보이기

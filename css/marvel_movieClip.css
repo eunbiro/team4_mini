@@ -16,34 +16,34 @@ section .con {
   height: 405px;
 }
 
-.slider__content {
+.slider_content {
   background-color: #151515;
 }
 
-.slider__content .swiper-slide.slide1 {
+.slider_content .swiper-slide.slide1 {
   background: url(../img/event_sub_01.png);
   background-size: cover;
   background-position: center;
 }
 
-.slider__content .swiper-slide.slide2 {
+.slider_content .swiper-slide.slide2 {
   background: url(../img/event_sub_01.png);
   background-size: cover;
   background-position: center;
 }
 
-.slider__content .swiper-slide.slide3 {
+.slider_content .swiper-slide.slide3 {
   background: url(../img/event_sub_01.png);
   background-size: cover;
   background-position: center;
 }
 
-.slider__content .mySwiper {
+.slider_content .mySwiper {
   width: 100%;
   height: 405px;
 }
 
-.slider__content .swiper-slide {
+.slider_content .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -69,11 +69,11 @@ section .con {
   margin: 0 auto;
 }
 
-.mvclip__content {
+.mvclip_content {
   max-width: 1280px;
 }
 
-.mvclip__content .mvtitle {
+.mvclip_content .mvtitle {
   background: #151515;
   height: 100px;
   display: flex;
@@ -81,14 +81,14 @@ section .con {
   padding-left: 20px;
 }
 
-.mvclip__content .mvtitle > h1 {
+.mvclip_content .mvtitle > h1 {
   font-size: 2.5rem;
   color: #fff;
   font-weight: bold;
   padding: 10px;
 }
 
-.clip__menu {
+.clip_menu {
   display: flex;
   justify-content: space-around;
   height: 60px;
@@ -99,7 +99,7 @@ section .con {
   /* border: 1px solid #222; */
 }
 
-.clip__menu > a {
+.clip_menu > a {
   width: 33.33%;
   height: 100%;
   line-height: 50px;
@@ -114,59 +114,59 @@ section .con {
   background-color: #fff;
 }
 
-.clip__main {
+.clip_main {
   border-left: 1px solid #666;
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
 }
 
-.clip__rank {
+.clip_rank {
   height: 30px;
   display: flex;
   align-items: flex-end;
   background-color: #fff;
 }
 
-.clip__content {
+.clip_content {
   position: relative;
   height: 1400px;
   background-color: #fff;
 }
 
-.clip__rank a {
+.clip_rank a {
   font-size: 0.8rem;
   margin-left: 10px;
 }
 
-.menu__clip {
+.menu_clip {
   border-bottom: 1px solid #666;
 }
 
-.menu__art {
+.menu_art {
   border-bottom: 1px solid #666;
 }
 
-.main__stillshot {
+.main_stillshot {
   width: 100%;
   /* height: 1000px; */
   position: absolute;
 }
 
-.main__movieclip {
+.main_movieclip {
   width: 100%;
   /* height: 1000px; */
   position: absolute;
   display: none;
 }
 
-.main__artwork {
+.main_artwork {
   width: 100%;
   /* height: 1000px; */
   position: absolute;
   display: none;
 }
 
-.sub__con {
+.sub_con {
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;
@@ -175,7 +175,7 @@ section .con {
   flex-direction: row;
 }
 
-.sub__con li {
+.sub_con li {
   width: 30%;
   height: 400px;
   background-color: yellowgreen;
@@ -183,20 +183,20 @@ section .con {
   overflow: hidden;
 }
 
-.sub__con li img {
+.sub_con li img {
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
-.page__num {
+.page_num {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 50px;
 }
 
-.page__num ul {
+.page_num ul {
   display: flex;
   justify-content: space-around;
   width: 700px;
@@ -204,7 +204,7 @@ section .con {
   align-items: center;
 }
 
-.page__num ul li {
+.page_num ul li {
   display: flex;
   width: 50px;
   height: 50px;
@@ -213,7 +213,7 @@ section .con {
   letter-spacing: -3px;
 }
 
-.page__num ul li a {
+.page_num ul li a {
   color: #fff;
   width: 45px;
   height: 45px;
@@ -225,19 +225,19 @@ section .con {
     max-width: 768px;
   }
 
-  .slider__content .swiper-slide.slide1 {
+  .slider_content .swiper-slide.slide1 {
     background: url(../img/Mevent_sub_01.png);
     background-size: cover;
     background-position: center;
   }
 
-  .slider__content .swiper-slide.slide2 {
+  .slider_content .swiper-slide.slide2 {
     background: url(../img/Mevent_sub_01.png);
     background-size: cover;
     background-position: center;
   }
 
-  .slider__content .swiper-slide.slide3 {
+  .slider_content .swiper-slide.slide3 {
     background: url(../img/Mevent_sub_01.png);
     background-size: cover;
     background-position: center;
@@ -247,15 +247,15 @@ section .con {
     height: 1500px;
   }
 
-  .clip__content {
+  .clip_content {
     height: 900px;
   }
 
-  .sub__con li {
+  .sub_con li {
     height: 200px;
   }
 
-  .sub__con li img {
+  .sub_con li img {
     height: 200px;
   }
 }
@@ -265,13 +265,13 @@ section .con {
     max-width: 768px;
   }
 
-  .slider__content .swiper-slide.slide1 {
+  .slider_content .swiper-slide.slide1 {
     background: url(../img/Mevent_sub_01.png);
     background-size: cover;
     background-position: center;
   }
 
-  .slider__content .swiper-slide.slide2 {
+  .slider_content .swiper-slide.slide2 {
     background: url(../img/Mevent_sub_01.png);
     background-size: cover;
     background-position: center;
@@ -287,16 +287,16 @@ section .con {
     height: 1300px;
   }
 
-  .clip__content {
+  .clip_content {
     height: 950px;
   }
 
-  .sub__con li {
+  .sub_con li {
     /* margin-top: 30px; */
     height: 250px;
   }
 
-  .sub__con li img {
+  .sub_con li img {
     height: 250px;
   }
 }
