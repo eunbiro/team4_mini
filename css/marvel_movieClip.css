@@ -2,6 +2,7 @@
 
 .wrap {
   padding-top: 100px;
+  background-color: #151515;
 }
 
 section .con {
@@ -90,9 +91,11 @@ section .con {
 .clip__menu {
   display: flex;
   justify-content: space-around;
-  height: 50px;
+  height: 60px;
   align-items: center;
   overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   /* border: 1px solid #222; */
 }
 
@@ -106,6 +109,9 @@ section .con {
   border-right: 1px solid #666;
   border-top: 1px solid #666;
   box-sizing: border-box;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff;
 }
 
 .clip__main {
@@ -118,11 +124,13 @@ section .con {
   height: 30px;
   display: flex;
   align-items: flex-end;
+  background-color: #fff;
 }
 
 .clip__content {
   position: relative;
   height: 1400px;
+  background-color: #fff;
 }
 
 .clip__rank a {
@@ -178,6 +186,7 @@ section .con {
 .sub__con li img {
   background-size: cover;
   background-position: center;
+  height: 400px;
 }
 
 .page__num {
@@ -202,6 +211,13 @@ section .con {
   line-height: 50px;
   justify-content: center;
   letter-spacing: -3px;
+}
+
+.page__num ul li a {
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  text-align: center;
 }
 
 @media all and (max-width: 768px) {
@@ -238,6 +254,10 @@ section .con {
   .sub__con li {
     height: 200px;
   }
+
+  .sub__con li img {
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 1024px) {
@@ -272,6 +292,11 @@ section .con {
   }
 
   .sub__con li {
+    /* margin-top: 30px; */
+    height: 250px;
+  }
+
+  .sub__con li img {
     height: 250px;
   }
 }
