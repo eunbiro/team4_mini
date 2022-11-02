@@ -2,19 +2,19 @@
 @import url('./common.css');
 
 .wrap {
-    /* background-color: #151515; */
-    padding-top: 100px;
+  /* background-color: #151515; */
+  padding-top: 100px;
 }
 
 section .con {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
 }
 
 /* ============================== */
 .slider {
-    height: 605px;
+  height: 605px;
 }
 
 .slider_content {
@@ -64,22 +64,21 @@ section .con {
     -webkit-align-items: center;
     align-items: center;
 }
-  
 
 /* ============================== */
 .youtube {
-    height: 605px;
+  height: 605px;
 }
 
 /* .youtube__content {
     background-color: #5a5a5a;
 } */
 
-
 /* ============================== */
 .release {
-    height: 650px;
+  height: 650px;
 }
+
 
 .release_content {
     display: flex;
@@ -109,7 +108,6 @@ section .con {
 
 .rel_poster .ov_poster img {
     transition: all 0.2s linear;
-    
 }
 
 /* .rel__poster .ov_poster h3 {
@@ -119,6 +117,7 @@ section .con {
     letter-spacing: 0.5px;
     color: #fff;
 } */
+
 .rel_poster .ov_poster {
     text-align: center;
     position: relative;
@@ -147,7 +146,7 @@ section .con {
 
 /* ============================== */
 .poster {
-    height: 605px;
+  height: 605px;
 }
 
 .poster_content {
@@ -204,10 +203,9 @@ section .con {
     height: 260px;
 }
 
-
 /* ============================== */
 .store {
-    height: 500px;
+  height: 500px;
 }
 
 .store_content {
@@ -306,17 +304,18 @@ section .con {
     .mv_poster {
         flex-wrap: wrap;
         justify-content: space-between;
-}
+    }
 
     .mv_poster h3 {
         font-size: 0.9rem;
         top: 96%;
         left: 5%;
-
     }
+    
     .mv_poster > div {
         width: 49%;
     }
+    
     .mv_poster img {
         height: 200px;
         margin-top: 30px;
@@ -336,5 +335,4 @@ section .con {
     .store_list li {
         width: 33.33%;
     }
-
 }
