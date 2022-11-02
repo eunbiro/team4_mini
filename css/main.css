@@ -17,35 +17,35 @@ section .con {
     height: 605px;
 }
 
-.slider__content {
+.slider_content {
     background-color: #151515;
 }
 
-.slider__content .swiper-slide.slide1 {
+.slider_content .swiper-slide.slide1 {
     background: url(../img/event_01.png);
     background-size: cover;
     background-position:center;
 }
 
-.slider__content .swiper-slide.slide2 {
+.slider_content .swiper-slide.slide2 {
     background: url(../img/event_01.png);
     background-size: cover;
     background-position:center;
 }
 
-.slider__content .swiper-slide.slide3 {
+.slider_content .swiper-slide.slide3 {
     background: url(../img/event_01.png);
     background-size: cover;
     background-position:center;
 }
 
 
-.slider__content .mySwiper {
+.slider_content .mySwiper {
     width: 100%;
     height: 605px;
 }
 
-.slider__content .swiper-slide {
+.slider_content .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -81,14 +81,14 @@ section .con {
     height: 650px;
 }
 
-.release__content {
+.release_content {
     display: flex;
     flex-direction: column;
     background-color: #151515;
     justify-content: center;
 }
 
-.release__content > h1 {
+.release_content > h1 {
     border-bottom: 1px solid #fff;
     font-weight: bold;
     font-size: 3rem;
@@ -99,7 +99,7 @@ section .con {
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
 }
 
-.rel__poster {
+.rel_poster {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -107,7 +107,7 @@ section .con {
     align-items: flex-end;
 }
 
-.rel__poster .ov_poster img {
+.rel_poster .ov_poster img {
     transition: all 0.2s linear;
     
 }
@@ -119,13 +119,13 @@ section .con {
     letter-spacing: 0.5px;
     color: #fff;
 } */
-.rel__poster .ov_poster {
+.rel_poster .ov_poster {
     text-align: center;
     position: relative;
     width: 310px;
 }
 
-.rel__poster .ov_poster p {
+.rel_poster .ov_poster p {
     top: 1%;
     left: 1%;
     position: absolute;
@@ -141,7 +141,7 @@ section .con {
     transition: all 0.2s linear;
 }
 
-.rel__poster img {
+.rel_poster img {
     height: 450px;
 }
 
@@ -150,14 +150,14 @@ section .con {
     height: 605px;
 }
 
-.poster__content {
+.poster_content {
     display: flex;
     flex-direction: column;
     background-color: #151515;
     justify-content: center;
 }
 
-.poster__content > h1 {
+.poster_content > h1 {
     border-bottom: 1px solid #fff;
     font-weight: bold;
     font-size: 3rem;
@@ -168,7 +168,7 @@ section .con {
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
 }
 
-.mv__poster {
+.mv_poster {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,11 +177,11 @@ section .con {
     align-items: flex-end;
 }
 
-.mv__poster > div {
+.mv_poster > div {
     position: relative;
 }
 
-.mv__poster h3 {
+.mv_poster h3 {
     position: absolute;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -192,15 +192,15 @@ section .con {
     text-align: center;
 }
 
-.mv__poster img {
+.mv_poster img {
     transition: all 0.2s linear;
 }
 
-.mv__poster img:hover {
+.mv_poster img:hover {
     transform: scale(1.1);
 }
 
-.mv__poster img {
+.mv_poster img {
     height: 260px;
 }
 
@@ -210,7 +210,7 @@ section .con {
     height: 500px;
 }
 
-.store__content {
+.store_content {
     display: flex;
     flex-direction: column;
     background-color: #151515;
@@ -218,7 +218,7 @@ section .con {
 
 }
 
-.store__content > h1 {
+.store_content > h1 {
     border-bottom: 1px solid #fff;
     font-weight: bold;
     font-size: 3rem;
@@ -228,7 +228,7 @@ section .con {
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
 }
 
-.store__list ul {
+.store_list ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -236,7 +236,7 @@ section .con {
     text-align: center;
 }
 
-.store__list img {
+.store_list img {
     height: 150px;
 }
 
@@ -247,13 +247,13 @@ section .con {
         max-width: 768px;
     }
 
-    .slider__content .swiper-slide.slide1 {
+    .slider_content .swiper-slide.slide1 {
         background: url(../img/Mevent_01.png);
         background-size: cover;
         background-position:center;
     }
     
-    .slider__content .swiper-slide.slide2 {
+    .slider_content .swiper-slide.slide2 {
         background: url(../img/Mevent_01.png);
         background-size: cover;
         background-position:center;
@@ -273,24 +273,24 @@ section .con {
         height: 550px;
     }
 
-    .rel__poster {
+    .rel_poster {
         padding: 10px 10px 0px
     }
 
-    .rel__poster img {
+    .rel_poster img {
         height: 300px;
         margin-top: 10px;
     }
     
-    .rel__poster .ov_poster {
+    .rel_poster .ov_poster {
         text-align: center;
     }
 
-    .rel__poster .ov_poster h3 {
+    .rel_poster .ov_poster h3 {
         font-size: 0.9rem;
     }
 
-    .rel__poster .ov_poster p {
+    .rel_poster .ov_poster p {
         font-size: 0.9rem;
     }
     
@@ -298,21 +298,21 @@ section .con {
         height: 600px;
     }
 
-    .mv__poster {
+    .mv_poster {
         flex-wrap: wrap;
         justify-content: space-between;
 }
 
-    .mv__poster h3 {
+    .mv_poster h3 {
         font-size: 0.9rem;
         top: 96%;
         left: 5%;
 
     }
-    .mv__poster > div {
+    .mv_poster > div {
         width: 49%;
     }
-    .mv__poster img {
+    .mv_poster img {
         height: 200px;
         margin-top: 30px;
         margin-bottom: 20px;
@@ -328,7 +328,7 @@ section .con {
         padding: 0px 10px 30px;
     }
 
-    .store__list li {
+    .store_list li {
         width: 33.33%;
     }
 

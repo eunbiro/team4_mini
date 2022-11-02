@@ -11,7 +11,7 @@
 }
 
 /* 헤더박스 */
-.header__nav {
+.header_nav {
   margin: 0 auto;
   max-width: 1280px;
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 /* 로고 */
-.header__nav > h1 {
+.header_nav > h1 {
   width: 200px;
   text-align: center;
   flex-grow: 0;
@@ -35,7 +35,7 @@
   /* padding-top: 10px; */
   width: calc(100% - 500px);
 }
-.menu__main {
+.menu_main {
   display: flex;
   height: 100px;
   align-items: center;
@@ -45,19 +45,19 @@
 }
 
 /* 상위메뉴 */
-.main__list {
+.main_list {
   font-size: 1.2rem;
   padding-top: 10px;
   position: relative;
   width: 120px;
 }
 
-.main__list > a {
+.main_list > a {
   color: rgb(236, 29, 36);
 }
 
 /* 하위메뉴 바탕판넬 */
-.header__panel {
+.header_panel {
   background-color: #151515;
   /* margin-top: 100px; */
   width: 100%;
@@ -66,13 +66,13 @@
 }
 
 /* 하위메뉴 */
-.main__list > div {
+.main_list > div {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
-.list__drop {
+.list_drop {
   position: absolute;
   width: 120px;
   top: 70px;
@@ -82,45 +82,45 @@
   display: none;
 }
 
-.list__drop li a {
+.list_drop li a {
   color: #fff;
 }
 
 /* 로그인버튼 */
-.menu__login {
+.menu_login {
   padding-top: 10px;
   width: 200px;
   text-align: center;
 }
-.menu__login button {
+.menu_login button {
   background: none;
   border: 0;
   font-size: 1.2rem;
 }
 
-.menu__login button a {
+.menu_login button a {
   color: rgb(236, 29, 36);
 }
 
 /* 모바일 로그인버튼 */
-.menu__Mlogin {
+.menu_Mlogin {
   padding-top: 10px;
   display: none;
 }
 
-.menu__Mlogin .Mbtn {
+.menu_Mlogin .Mbtn {
   background: none;
   border: 0;
   font-size: 1.2rem;
   color: rgb(236, 29, 36);
 }
 
-.menu__Mlogin .Mbtn a {
+.menu_Mlogin .Mbtn a {
   color: rgb(236, 29, 36);
 }
 
 /* 우측 하단 업다운 버튼 */
-.fixed__btn {
+.fixed_btn {
   position: fixed;
   right: 50%;
   bottom: 10%;
@@ -130,7 +130,7 @@
   height: 110px;
   z-index: 1;
 }
-.box__updown {
+.box_updown {
   display: flex;
   width: 50px;
   height: 50px;
@@ -140,7 +140,7 @@
   opacity: 0.7;
   margin-top: 10px;
 }
-.box__updown a {
+.box_updown a {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -156,7 +156,7 @@
   position: relative;
 }
 
-.footer__area {
+.footer_area {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@
   top: 50px;
 }
 
-.ft__level1 {
+.ft_level1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -173,7 +173,7 @@
   align-items: center;
 }
 
-.ft__level1 ul li a {
+.ft_level1 ul li a {
   font-size: 1.1rem;
   color: #fff;
   font-weight: bold;
@@ -182,20 +182,20 @@
   align-items: center;
 }
 
-.ft__level2 {
+.ft_level2 {
   display: flex;
   justify-content: center;
 }
 
-.ft__level2 nav {
+.ft_level2 nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-around;
 }
 
-.ft__level2 nav,
-.ft__level2 a {
+.ft_level2 nav,
+.ft_level2 a {
   font-size: 0.8rem;
   color: #fff;
   padding: 0px 5px;
@@ -207,58 +207,58 @@
     width: calc(100% - 100px);
   }
 
-  .header__nav > h1 {
+  .header_nav > h1 {
     padding-top: 10px;
   }
 
-  .header__nav > h1 img {
+  .header_nav > h1 img {
     width: 200px;
   }
 
-  .header__nav {
+  .header_nav {
     max-width: 768px;
     margin: 0;
   }
 
-  .menu__main {
+  .menu_main {
     height: 50px;
   }
 
-  .main__list {
+  .main_list {
     font-size: 1rem;
     width: 100px;
   }
 
-  .header__panel {
+  .header_panel {
     height: 150px;
   }
 
-  .menu__login {
+  .menu_login {
     display: none;
   }
 
-  .menu__Mlogin {
+  .menu_Mlogin {
     display: block;
   }
 
-  .fixed__btn {
+  .fixed_btn {
     margin-right: -48%;
   }
 
-  .ft__level1 {
+  .ft_level1 {
     margin: 30px 10px 40px;
   }
 
-  .ft__level1 img {
+  .ft_level1 img {
     width: 150px;
   }
 
-  .ft__level1 ul li a {
+  .ft_level1 ul li a {
     font-size: 0.8rem;
     line-height: 20px;
   }
 
-  .ft__level2 nav {
+  .ft_level2 nav {
     justify-content: center;
   }
 }
@@ -269,57 +269,57 @@
     width: calc(100% - 100px);
   }
 
-  .header__nav > h1 {
+  .header_nav > h1 {
     padding-top: 10px;
   }
 
-  .header__nav > h1 img {
+  .header_nav > h1 img {
     width: 200px;
   }
 
-  .header__nav {
+  .header_nav {
     max-width: 768px;
     margin: 0;
   }
 
-  .menu__main {
+  .menu_main {
     height: 50px;
   }
 
-  .main__list {
+  .main_list {
     font-size: 1rem;
   }
 
-  .header__panel {
+  .header_panel {
     height: 150px;
   }
 
-  .menu__login {
+  .menu_login {
     display: none;
   }
 
-  .menu__Mlogin {
+  .menu_Mlogin {
     display: block;
   }
 
-  .fixed__btn {
+  .fixed_btn {
     margin-right: -48%;
   }
 
-  .ft__level1 {
+  .ft_level1 {
     margin: 30px 10px 40px;
   }
 
-  .ft__level1 img {
+  .ft_level1 img {
     width: 150px;
   }
 
-  .ft__level1 ul li a {
+  .ft_level1 ul li a {
     font-size: 0.8rem;
     line-height: 20px;
   }
 
-  .ft__level2 nav {
+  .ft_level2 nav {
     justify-content: center;
   }
 }
