@@ -23,9 +23,9 @@ body, html {
   height: 100%;
 }
 
-#parallax-1 {
+/* #parallax-2 {
   background-image: url(./img/aven\ -wrd2.png);
-}
+} */
 .caption {
   display: -webkit-box;
   display: -ms-flexbox;
