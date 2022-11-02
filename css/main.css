@@ -28,7 +28,7 @@ section .con {
 }
 
 .slider_content .swiper-slide.slide2 {
-    background: url(../img/event_01.png);
+    background: url(../img/event_02.png);
     background-size: cover;
     background-position:center;
 }
@@ -241,6 +241,11 @@ section .con {
 
 
 @media all and (max-width:768px){ 
+
+    .wrap {
+        padding-top: 140px;
+    }
+
     section .con {
         max-width: 768px;
     }
@@ -252,7 +257,7 @@ section .con {
     }
     
     .slider_content .swiper-slide.slide2 {
-        background: url(../img/Mevent_01.png);
+        background: url(../img/Mevent_02.png);
         background-size: cover;
         background-position:center;
     }
