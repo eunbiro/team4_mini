@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 0.8rem;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#title .out{
+    display: flex;
+}
+#total{
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    padding: 10px 50px;
+}
+#signin div{
+    padding: 10px 80px;
+}
+#signin{
+    background: #fff;
+    border:1px solid #222;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    z-index: 999;
+}
+.title{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+}
+.subtitle{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: red;
+    font-size: 15px;
+}
+#signin input{
+    width:300px;
+    height: 30px;
+}
+
+#signin #finish{
+    background-color: red;
+}
+#finish{
+    border: 1px solid #222222;
+    height: 30px;
+    width: 200px;
+    font-size: 8px;
+    letter-spacing: 1px;
+
+    display: block;
+    margin: 0 auto;
+}
+#finish a{
+    font-size: 8px;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    display: block;
+}
+#create a{
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 8px;
+}
+#create{
+    border: 1px solid #222;
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+}
+/*.board_list td.title > a:hover{
+    text-decoration: underline/;*/
+#finish > :hover{
+    text-decoration: underline;
+}
+#create > :hover{
+    text-decoration: underline;
+}

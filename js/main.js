@@ -12,3 +12,15 @@ var swiper = new Swiper(".mySwiper", {
     },
     speed: 800
   });
+
+
+
+  $('.ov_poster').find('img').bind('mouseover',function(){
+    $(this).css('transform','scale(1.1)');
+    $(this).parent().siblings('p').css('display', 'block');
+  })
+
+  $('.ov_poster').find('img').bind('mouseout',function(){
+    $(this).css('transform','scale(1)');
+    $(this).parent().siblings('p').css('display', 'none')
+  })
