@@ -32,3 +32,13 @@ lightbox.option({
   disableScrolling: false,
   fitImagesInViewport: false,
 });
+
+$('.rank_like').click(function () {
+  $('.recom_chk').hide;
+  $('.rank_like').show;
+});
+
+$('.recom_chk').click(function () {
+  $('.rank_like').hide;
+  $('.recom_chk').show;
+});
