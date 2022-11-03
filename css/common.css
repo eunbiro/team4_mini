@@ -92,13 +92,10 @@
   width: 200px;
   text-align: center;
 }
-.menu_login button {
+.menu_login a {
   background: none;
   border: 0;
   font-size: 1.2rem;
-}
-
-.menu_login button a {
   color: rgb(236, 29, 36);
 }
 
@@ -108,14 +105,10 @@
   display: none;
 }
 
-.menu_Mlogin .Mbtn {
+.menu_Mlogin a {
   background: none;
   border: 0;
   font-size: 1.2rem;
-  color: rgb(236, 29, 36);
-}
-
-.menu_Mlogin .Mbtn a {
   color: rgb(236, 29, 36);
 }
 
