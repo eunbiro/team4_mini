@@ -163,20 +163,17 @@ section .con {
 
 .main_stillshot {
   width: 100%;
-  /* height: 1000px; */
   position: absolute;
 }
 
 .main_movieclip {
   width: 100%;
-  /* height: 1000px; */
   position: absolute;
   display: none;
 }
 
 .main_artwork {
   width: 100%;
-  /* height: 1000px; */
   position: absolute;
   display: none;
 }
@@ -193,9 +190,10 @@ section .con {
 .sub_con li {
   width: 30%;
   height: 400px;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   margin-top: 40px;
   overflow: hidden;
+  text-align: center;
 }
 
 .sub_con li img {
