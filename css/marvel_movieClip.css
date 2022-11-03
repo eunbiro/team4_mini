@@ -81,7 +81,7 @@ section .con {
   padding-left: 20px;
 }
 
-.mvclip_content .mvtitle > h1 {
+.mvclip_content .mvtitle > h3 {
   font-size: 2.5rem;
   color: #fff;
   font-weight: bold;
