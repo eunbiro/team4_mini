@@ -35,10 +35,10 @@ lightbox.option({
 
 $('.rank_like').click(function () {
   $('.recom_chk').hide;
-  $('.rank_like').show;
+  $('.like_chk').show;
 });
 
-$('.recom_chk').click(function () {
-  $('.rank_like').hide;
+$('.rank_recom').click(function () {
+  $('.like_chk').hide;
   $('.recom_chk').show;
 });
