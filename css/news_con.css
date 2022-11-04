@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.news_con {
+  width: 80%;
+
+  margin: 0 auto;
+}
+.news_title {
+  color: white;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: black;
+}
+
+.news_subtitle {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.news_day {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.news_day1 {
+  color: red;
+  font-weight: bold;
+}
+.news_day2 {
+  color: gray;
+  font-weight: bold;
+}
+
+.news_main {
+  padding: 20px;
+}
+.news_img {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.news_img p {
+  padding: 5px;
+  text-align: center;
+  color: #555;
+}
+
+.news_main_con {
+  font-size: 1.3rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* 뮤직플레이어 */
+@import 'https://fonts.googleapis.com/css?family=Reem+Kufi';
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.music_card {
+  margin: 100px auto;
+  background: #fff;
+  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 6px;
+}
+
+.music_image {
+  /* background: url('http://static1.squarespace.com/static/530b728de4b04fc9b23a5988/t/569880381a5203aa7d44c1a8/1452834873397/00.jpg?format=1000w') */
+  background: url('/img/rihanna_music.jpeg') no-repeat 75%;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+  height: 300px;
+  width: 300px;
+}
+
+.music_image:after {
+  height: 100px;
+  content: '';
+  top: 200px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(rgba(9, 2, 4, 0), #444);
+}
+
+.wave {
+  position: absolute;
+  height: 750px;
+  width: 750px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -70%;
+  margin-top: -130%;
+  background: radial-gradient(#353535, #383737);
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 10px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+/* when stop */
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+/* when stop */
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+/* when stop */
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.artist {
+  color: #cfcfcf;
+  font-size: 1.2em;
+  letter-spacing: 0.08em;
+  font-family: 'Reem Kufi', sans-serif;
+  margin-top: -10px;
+}
+
+.trigger {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  /* font-size: 18px; */
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: #555;
+  /* background-color: aqua; */
+}
+
+.music_play {
+  display: none;
+}
