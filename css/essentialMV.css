@@ -38,7 +38,7 @@ section .con {
     margin-top: 100px;
 } 
 
-.character_content > h1 {
+.character_content > h2 {
     border-bottom: 1px solid #fff;
     font-weight: bold;
     font-size: 3rem;
@@ -87,7 +87,7 @@ section .con {
     margin-top: 50px;
 }
 
-.ott_content > h1 {
+.ott_content > h2 {
     border-bottom: 1px solid #fff;
     font-weight: bold;
     font-size: 3rem;
