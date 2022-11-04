@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/marvel_movieclip.css" />
+    <link rel="stylesheet" href="../library/animate/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../library/fontawesome-free-6.2.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 헤더창 -->
+    <header class="header">
+      <div class="header_nav">
+        <h1>
+          <a href="../index.html">
+            <img src="../img/marvel_logo.png" alt="logo" />
+          </a>
+        </h1>
+        <!-- 모바일 로그인 -->
+        <div class="menu_Mlogin">
+          <a href="../junghwan/marvel/login.html">SIGN IN | JOIN</a>
+        </div>
+        <!-- 메뉴박스 -->
+        <div class="menu">
+          <nav>
+            <ul class="menu_main">
+              <li class="main_list">
+                <a>UNIVERSE</a>
+                <div>
+                  <ul class="list_drop animate__animated animate__fadeIn">
+                    <li><a href="../ukzi/wrdvw.html">WORLDVIEW</a></li>
+                    <li><a>CINEMATIC</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="main_list">
+                <a>CHARACTERS</a>
+                <div>
+                  <ul class="list_drop animate__animated animate__fadeIn">
+                    <li><a href="#">ALL CHARACTERS</a></li>
+                    <li><a>TEAMS & GROUPS</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="main_list">
+                <a>NEWS</a>
+                <div>
+                  <ul class="list_drop animate__animated animate__fadeIn">
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">STORE</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="main_list">
+                <a>MOVIES</a>
+                <div>
+                  <ul class="list_drop animate__animated animate__fadeIn">
+                    <li>
+                      <a href="../sookyoung/UpcomingFilms.html">RELEASE</a>
+                    </li>
+                    <li>
+                      <a href="../pages/marvel_movieClip.html">MOVIE CLIP</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- 로그인박스 -->
+        <div class="menu_login">
+          <a href="../junghwan/marvel/login.html">SIGN IN | JOIN</a>
+        </div>
+      </div>
+      <div class="header_panel"></div>
+    </header>
+    <main class="wrap">
+      <!-- 업다운 버튼 -->
+      <div class="fixed_btn">
+        <div class="box_updown">
+          <a class="btn_up">UP</a>
+        </div>
+        <div class="box_updown">
+          <a class="btn_down">DOWN</a>
+        </div>
+      </div>
+      <!-- 슬라이더 -->
+      <section class="slider">
+        <div class="slider_content con">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div id="tab" class="swiper-slide slide1"></div>
+              <div class="swiper-slide slide2"></div>
+              <div class="swiper-slide slide3"></div>
+            </div>
+            <!-- navigation 버튼 -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- pagination 버튼 -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="mvclip">
+        <div class="mvclip_content con">
+          <div class="mvtitle">
+            <h3>ARTWORK</h3>
+          </div>
+          <div>
+            <div class="clip_menu">
+              <a href="#tab" id="still" class="menu_still">StillShot</a>
+              <a href="#tab" id="clip" class="menu_clip">MovieClip</a>
+              <a href="#tab" id="art" class="menu_art">ArtWork</a>
+            </div>
+            <div class="clip_main">
+              <div class="clip_rank">
+                <span class="like_chk"><i class="fa-solid fa-check"></i></span>
+                <a href="#tab" class="rank_like">좋아요순</a>
+                <span class="recom_chk"><i class="fa-solid fa-check"></i></span>
+                <a href="#tab" class="rank_recom">추천순</a>
+              </div>
+              <div class="clip_content">
+                <div class="main_stillshot con">
+                  <ul class="sub_stillshot sub_con">
+                    <li>
+                      <a
+                        href="../img/still01.png"
+                        data-title="still01"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still01.png" alt="still01" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still04.png"
+                        data-title="still02"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still04.png" alt="still02" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still07.png"
+                        data-title="still03"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still07.png" alt="still03" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still04.png"
+                        data-title="still04"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still04.png" alt="still04" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still05.png"
+                        data-title="still05"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still05.png" alt="still05" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still06.png"
+                        data-title="still06"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still06.png" alt="still06" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still07.png"
+                        data-title="still07"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still07.png" alt="still07" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still06.png"
+                        data-title="still08"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still06.png" alt="still08" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/still05.png"
+                        data-title="still09"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/still05.png" alt="still09" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="main_movieclip con">
+                  <ul class="sub_movieclip sub_con">
+                    <li>
+                      <a
+                        href="../img/movieclip_01.gif"
+                        data-title="MovieClip01"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_01.gif" alt="MovieClip_01" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_02.gif"
+                        data-title="MovieClip_02"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_02.gif" alt="MovieClip_02" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_03.gif"
+                        data-title="MovieClip_03"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_03.gif" alt="MovieClip_03" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_04.gif"
+                        data-title="MovieClip_04"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_04.gif" alt="MovieClip_04" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_05.gif"
+                        data-title="MovieClip_05"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_05.gif" alt="MovieClip_05" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_06.gif"
+                        data-title="MovieClip_06"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_06.gif" alt="MovieClip_06" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_07.gif"
+                        data-title="MovieClip_07"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_07.gif" alt="MovieClip_07" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_08.gif"
+                        data-title="MovieClip_08"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_08.gif" alt="MovieClip_08" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/movieclip_09.gif"
+                        data-title="MovieClip_09"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/movieclip_09.gif" alt="MovieClip_09" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="main_artwork con">
+                  <ul class="sub_artwork sub_con">
+                    <li>
+                      <a
+                        href="../img/artwork_01.jpg"
+                        data-title="artwork_01"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_01.jpg" alt="artwork_01" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_02.jpg"
+                        data-title="artwork_02"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_02.jpg" alt="artwork_02" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_03.jpg"
+                        data-title="artwork_03"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_03.jpg" alt="artwork_03" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_04.jpg"
+                        data-title="artwork_04"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_04.jpg" alt="artwork_04" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_05.jpg"
+                        data-title="artwork_05"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_05.jpg" alt="artwork_05" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_06.jpg"
+                        data-title="artwork_06"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_06.jpg" alt="artwork_06" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_07.jpg"
+                        data-title="artwork_07"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_07.jpg" alt="artwork_07" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_08.jpg"
+                        data-title="artwork_08"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_08.jpg" alt="artwork_08" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../img/artwork_09.JPG"
+                        data-title="artwork_09"
+                        data-lightbox="example-set"
+                      >
+                        <img src="../img/artwork_09.JPG" alt="artwork_09" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="page_num">
+              <ul>
+                <li><a class="num_first">&lt;&lt;</a></li>
+                <li><a class="num_prev">&lt;</a></li>
+                <li><a class="num">1</a></li>
+                <li><a class="num">2</a></li>
+                <li><a class="num">3</a></li>
+                <li><a class="num">4</a></li>
+                <li><a class="num">5</a></li>
+                <li><a class="num">6</a></li>
+                <li><a class="num">7</a></li>
+                <li><a class="num">8</a></li>
+                <li><a class="num">9</a></li>
+                <li><a class="num_next">&gt;</a></li>
+                <li><a class="num_last">&gt;&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_area">
+        <div class="ft_level1">
+          <div>
+            <a href="../index.html">
+              <img src="../img/marvel_logo.png" alt="logo" />
+            </a>
+          </div>
+          <div>
+            <ul>
+              <li><a>ABOUT MARVEL</a></li>
+              <li><a>HELP/FAQS</a></li>
+              <li><a>CAREERS</a></li>
+              <li><a>INTERNSHIP</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a>ADVERTISING</a></li>
+              <li><a>DISNEY</a></li>
+              <li><a>MARVELHQ.COM</a></li>
+              <li><a>REDEEM DIGITAL COMICS</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ft_level2">
+          <nav>
+            <a>Terms of Use</a>
+            <a>Privacy Policy</a>
+            <a>Your California Privacy Rights</a>
+            <a>Do Not Sell My Personal Information</a>
+            <a>Children's Online Privacy Policy</a>
+            <a>License Agreement</a>
+            <a>Interest-Based Ads</a>
+            <a>Marvel Insider Terms</a>
+            <span>©2022 MARVEL</span>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/marvel_movieclip.js"></script>
+  </body>
+</html>
