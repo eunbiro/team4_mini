@@ -80,6 +80,8 @@ section .con {
     text-align: center;
     background-color: red;
     color: white;
+    font-size: 40px;
+    font-weight: bold;
 }
 .border{
     border-bottom: 2px solid gray;
@@ -88,7 +90,7 @@ section .con {
 
 .featured_characters_movie_title{
     padding: 10px;
-   
+    font-size: 1.4rem;
     
     width: 100%;
     color: white;
