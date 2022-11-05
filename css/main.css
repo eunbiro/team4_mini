@@ -70,9 +70,7 @@ section .con {
   height: 605px;
 }
 
-/* .youtube__content {
-    background-color: #5a5a5a;
-} */
+
 
 /* ============================== */
 .release {
@@ -273,9 +271,9 @@ section .con {
         background-position:center;
     }
 
-    .youtube {
+    /* .youtube {
         height: 350px;
-    }
+    } */
 
     .release {
         height: 550px;
