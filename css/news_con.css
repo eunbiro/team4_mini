@@ -330,7 +330,7 @@ img:hover {
 }
 
 .music_image {
-  background: url('/img/rihanna_music.jpeg') no-repeat 75%;
+  background: url('../img/rihanna_music.jpeg') no-repeat 75%;
   background-size: cover;
   position: absolute;
   z-index: 1;
