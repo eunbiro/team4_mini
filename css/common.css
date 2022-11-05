@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 
 /* 헤더 전체적용 */
 .header {
@@ -50,10 +52,12 @@
   padding-top: 10px;
   position: relative;
   width: 120px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .main_list > a {
   color: rgb(236, 29, 36);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* 하위메뉴 바탕판넬 */
@@ -84,6 +88,7 @@
 
 .list_drop li a {
   color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* 로그인버튼 */
@@ -97,6 +102,7 @@
   border: 0;
   font-size: 1.2rem;
   color: rgb(236, 29, 36);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* 모바일 로그인버튼 */
@@ -110,6 +116,7 @@
   border: 0;
   font-size: 1.2rem;
   color: rgb(236, 29, 36);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* 우측 하단 업다운 버튼 */
@@ -141,6 +148,7 @@
   background-color: #fff;
   border-radius: 50%;
   font-size: 0.8rem;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .footer {
@@ -173,6 +181,7 @@
   line-height: 30px;
   letter-spacing: 1px;
   align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .ft_level2 {
@@ -192,6 +201,7 @@
   font-size: 0.8rem;
   color: #fff;
   padding: 0px 5px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 @media all and (max-width: 768px) {
