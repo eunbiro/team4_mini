@@ -14,7 +14,7 @@ img {
 }
 
 .news_wrap {
-  background-color: #121418;
+  /* background-color: #121418; */
   display: flex;
   font-family: 'Inter', sans-serif;
   justify-content: center;
