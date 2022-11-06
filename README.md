@@ -1,25 +1,32 @@
+<br />
 # MARVEL MOVIE SITE
 [프로젝트 링크](https://eunbiro.github.io/team4_mini/)<br />
+
 <br /><br />
+
 ## TEAM PROJECT<br />
+
 <br />
+
 기간 : 22.10.21 ~ 22.11.07
-<br />
-조장 : <br />
-노은비 [github](https://github.com/eunbiro)
-<br />
-조원 : <br />
+
+<br /><br />
+
+팀원 : <br />
+노은비 [github](https://github.com/eunbiro)<br />
 조욱진 [github](https://github.com/Ukzi)<br />
 권수경 [github](https://github.com/rosencrantz96)<br />
 김정환 [github](https://github.com/andy981217)<br />
 신초아 [github](https://github.com/chdk0842)<br />
 
-<br />
-<br />
+<br /><br />
+
 ## 기획 배경 및 목적 :<br />
+
 [MARVEL 공식사이트](https://www.marvel.com/)에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
-<br />
-<br />
+
+<br /><br />
+
 ## 사용 기술<br />
 
 <img src="https://img.shields.io/badge/HTML5.svg?logo=rust&logoColor=white&style=for-the-badge">
@@ -31,6 +38,7 @@
 
 <br />
 <br />
+
 ## 기능 요약 : <br />
 (백엔드는 아직 배우지 않았으므로 모든 것은 프론트엔드 기준으로 작동한다.)<br />
 * 로그인/회원가입<br />
@@ -39,8 +47,8 @@
 * 영화 별 캐릭터 소개<br />
 * 앞으로 개봉 할 영화소개 및 기본배경<br />
 * 영화 명장면을 담은 영화클립 갤러리 페이지<br />
-<br />
-<br />
+
+<br /><br />
 
 ## 개발 과정 : <br />
 10월 21~24일 개발사이트 탐색<br />
@@ -50,7 +58,7 @@
 10월 26일 ~ 11월 03일 각자 페이지 개발<br />
 11월 04일 각 페이지 링크연결<br />
 
-
+<br /><br />
 
 ## 개발 페이지 : <br />
 노은비 : 
@@ -77,9 +85,7 @@
 [news.html](https://eunbiro.github.io/team4_mini/pages/news.html), 
 [new_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
 
-<br />
-<br />
-
+<br /><br />
 
 ## 개발 후기 : <br />
 
