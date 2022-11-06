@@ -15,7 +15,7 @@
 신초아 [신초아 github](https://github.com/chdk0842)<br />
 
 ##기획 배경 및 목적 :<br />
-[MARVEL 공식사이트](https://www.marvel.com/) 마블 공식사이트에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
+[MARVEL 공식사이트](https://www.marvel.com/)에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
 
 ##기능 요약 : <br />
 (백엔드는 아직 배우지 않았으므로 모든 것은 프론트엔드 기준으로 작동한다.)<br />
@@ -27,9 +27,27 @@
 영화 명장면을 담은 영화클립 갤러리 페이지<br />
 
 ##개발 페이지<br />
-노은비 : [index.html](https://eunbiro.github.io/team4_mini/), [marvel_movieClip.html](https://eunbiro.github.io/team4_mini/pages/marvel_movieClip.html)<br />
-조욱진 : worldview.html, worldview_phase01.html, worldview_phase02.html, worldview_phase03.html, worldview_phase04.html, goods.html<br />
-권수경 : UpcomingFilm.html, EssntialMV1.html, EssntialMV2.html, EssntialMV3.html, EssntialMV4.html<br />
-김정환 : login.html, signin.html, introduce_characters.html<br />
-신초아 : news.html, new_con.html<br />
+노은비 : 
+[index.html](https://eunbiro.github.io/team4_mini/), 
+[marvel_movieClip.html](https://eunbiro.github.io/team4_mini/pages/marvel_movieClip.html)<br />
+조욱진 : 
+[worldview.html](https://eunbiro.github.io/team4_mini/pages/worldview.html), 
+[worldview_phase01.html](https://eunbiro.github.io/team4_mini/pages/worldview_phase01.html), 
+[worldview_phase02.html](https://eunbiro.github.io/team4_mini/pages/worldview_phase02.html), 
+[worldview_phase03.html](https://eunbiro.github.io/team4_mini/pages/worldview_phase03.html), 
+[worldview_phase04.html](https://eunbiro.github.io/team4_mini/pages/worldview_phase04.html), 
+[goods.html](https://eunbiro.github.io/team4_mini/pages/goods.html)<br />
+권수경 : 
+[UpcomingFilm.html](https://eunbiro.github.io/team4_mini/pages/UpcomingFilms.html), 
+[EssntialMV1.html](https://eunbiro.github.io/team4_mini/pages/EssentialMV1.html), 
+[EssntialMV2.html](https://eunbiro.github.io/team4_mini/pages/EssentialMV2.html), 
+[EssntialMV3.html](https://eunbiro.github.io/team4_mini/pages/EssentialMV3.html), 
+[EssntialMV4.html](https://eunbiro.github.io/team4_mini/pages/EssentialMV4.html)<br />
+김정환 : 
+[login.html](https://eunbiro.github.io/team4_mini/pages/login.html), 
+[signin.html](https://eunbiro.github.io/team4_mini/pages/signin.html), 
+[introduce_characters.html](https://eunbiro.github.io/team4_mini/pages/introduce_characters.html)<br />
+신초아 : 
+[news.html](https://eunbiro.github.io/team4_mini/pages/news.html), 
+[new_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
 
