@@ -179,6 +179,8 @@ section .con {
 
 .mv_poster > div {
     position: relative;
+    width: 270px;
+    height: 330px;
 }
 
 .mv_poster h3 {
@@ -187,8 +189,9 @@ section .con {
     letter-spacing: 0.5px;
     color: #fff;
     width: 270px;
-    top: 107%;
-    left: -30%;
+    height: 40px;
+    top: 85%;
+    /* left: -30%; */
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -312,22 +315,23 @@ section .con {
         justify-content: space-between;
         padding-left: 10px;
         padding-right: 10px;
+        /* height: 600px; */
     }
 
     .mv_poster h3 {
         font-size: 0.9rem;
-        width: 200px;
-        top: 96%;
-        left: 5%;
+        width: 180px;
+        top: 80%;
     }
     
     .mv_poster > div {
-        width: 200px;
+        width: 180px;
+        height: 260px;
     }
     
     .mv_poster img {
         height: 200px;
-        margin-top: 30px;
+        /* margin-top: 30px; */
         margin-bottom: 20px;
     }
 
