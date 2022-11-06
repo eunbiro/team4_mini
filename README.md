@@ -6,7 +6,7 @@
 기간 : 22.10.21 ~ 22.11.07
 
 조장 : <br />
-노은비 [노은비 github](https://github.com/eunbiro)
+노은비 [github](https://github.com/eunbiro)
 
 조원 : <br />
 조욱진 [github](https://github.com/Ukzi)<br />
@@ -15,8 +15,10 @@
 신초아 [github](https://github.com/chdk0842)<br />
 
 
+
 ##기획 배경 및 목적 :<br />
 [MARVEL 공식사이트](https://www.marvel.com/)에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
+
 
 
 ##기능 요약 : <br />
@@ -29,6 +31,7 @@
 영화 명장면을 담은 영화클립 갤러리 페이지<br />
 
 
+
 ##개발 과정 : <br />
 10월 21~24일 개발사이트 탐색<br />
 10월 ~ 24일 개발페이지 분담<br />
@@ -36,6 +39,7 @@
 10월 31일 git server 첫 콜라보<br />
 10월 26일 ~ 11월 03일 각자 페이지 개발<br />
 11월 04일 각 페이지 링크연결<br />
+
 
 
 ##개발 페이지 : <br />
@@ -62,6 +66,9 @@
 신초아 : 
 [news.html](https://eunbiro.github.io/team4_mini/pages/news.html), 
 [new_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
+
+
+
 
 
 ## 개발 후기 : <br />
