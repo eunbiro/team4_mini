@@ -235,6 +235,7 @@ section .con {
     justify-content: space-around;
     padding: 0px 20px 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .store_list img {
@@ -290,6 +291,7 @@ section .con {
     
     .rel_poster .ov_poster {
         text-align: center;
+        width: 220px;
     }
 
     .rel_poster .ov_poster h3 {
@@ -298,6 +300,7 @@ section .con {
 
     .rel_poster .ov_poster p {
         font-size: 0.9rem;
+        width: 220px;
     }
     
     .poster {
@@ -307,16 +310,19 @@ section .con {
     .mv_poster {
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mv_poster h3 {
         font-size: 0.9rem;
+        width: 200px;
         top: 96%;
         left: 5%;
     }
     
     .mv_poster > div {
-        width: 49%;
+        width: 200px;
     }
     
     .mv_poster img {
@@ -330,12 +336,16 @@ section .con {
     }
 
     .store__list ul {
-        flex-wrap: wrap;
         line-height: 50px;
         padding: 0px 10px 30px;
     }
 
     .store_list li {
         width: 33.33%;
+        margin-bottom: 10px;
+    }
+
+    .store_list img {
+        height: 100px;
     }
 }
