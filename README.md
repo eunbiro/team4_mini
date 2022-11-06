@@ -6,16 +6,17 @@
 
 ## TEAM PROJECT <br />
 
-#### 기간 : 22.10.21 ~ 22.11.07
+#### 기간 :&nbsp; 22.10.21 ~ 22.11.07
 <br /><br />
 
+#### 조장 : 
+노은비&nbsp;&nbsp; [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/eunbiro)<br />
 
-#### 팀원 : <br />
-노은비 [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/eunbiro)<br />
-조욱진 [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Ukzi)<br />
-권수경 [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/rosencrantz96)<br />
-김정환 [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/andy981217)<br />
-신초아 [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/chdk0842)<br />
+#### 팀원 : 
+조욱진&nbsp;&nbsp; [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Ukzi)<br />
+권수경&nbsp;&nbsp; [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/rosencrantz96)<br />
+김정환&nbsp;&nbsp; [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/andy981217)<br />
+신초아&nbsp;&nbsp; [<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/chdk0842)<br />
 
 <br /><br />
 
@@ -27,8 +28,7 @@
 
 ## 사용 기술<br />
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"><img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
-<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"><img src="https://img.shields.io/badge/fontawesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white"><img src="https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/fontawesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
 
 <br />
 <br />
@@ -45,12 +45,13 @@
 <br /><br />
 
 ## 개발 과정 : <br />
-10월 21~24일 개발사이트 탐색<br />
-10월 ~ 24일 개발페이지 분담<br />
-10월 ~ 26일 스토리 보드 작성<br />
-10월 31일 git server 첫 콜라보<br />
-10월 26일 ~ 11월 03일 각자 페이지 개발<br />
-11월 04일 각 페이지 링크연결<br />
+10월 21 ~ 24일　&nbsp;&nbsp;개발사이트 탐색<br />
+10월 24일　　　　개발페이지 분담<br />
+10월 24 ~ 26일　&nbsp;&nbsp;스토리 보드 작성<br />
+10월 31일　　　　git server 첫 콜라보<br />
+10월 26 ~ 03일　&nbsp;&nbsp;각자 페이지 개발<br />
+11월 04일　　　　각 페이지 링크연결<br />
+11월 07일　　　　프로젝트 제출<br />
 
 <br /><br />
 
