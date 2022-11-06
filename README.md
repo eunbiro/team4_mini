@@ -1,16 +1,15 @@
 <br />
 # MARVEL MOVIE SITE
-[프로젝트 링크](https://eunbiro.github.io/team4_mini/)<br />
+
+[프로젝트 링크](https://eunbiro.github.io/team4_mini/)
 
 <br /><br />
 
 ## TEAM PROJECT<br />
 
 <br />
-
 기간 : 22.10.21 ~ 22.11.07
-
-<br /><br />
+<br />
 
 팀원 : <br />
 노은비 [github](https://github.com/eunbiro)<br />
@@ -29,12 +28,12 @@
 
 ## 사용 기술<br />
 
-<img src="https://img.shields.io/badge/HTML5.svg?logo=rust&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/css3.svg?logo=rust&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/javascript.svg?logo=rust&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/jquery.svg?logo=rust&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/fontawesome.svg?logo=rust&logoColor=white&style=for-the-badge">
-<img src="https://img.shields.io/badge/swiper.svg?logo=rust&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+<img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+<img src="https://img.shields.io/badge/fontawesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white">
+<img src="https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
 
 <br />
 <br />
@@ -89,7 +88,7 @@
 
 ## 개발 후기 : <br />
 
-노은비 : <br />
+### 노은비 : <br />
 첫 프로젝트에 조장까지 맡게되어서 부담감이 있었지만 팀원들이 잘 따라와주어서 수월하게 프로젝트를 진행 할 수 있었다.
 팀원 대부분이 개인역량이 높았던터라 스스로 구글링해서 가져오는 소스들도 괜찮았고 내가 피드백 해줄만한건 거의 없었다.<br />
 
