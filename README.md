@@ -1,21 +1,20 @@
-<br />
-# MARVEL MOVIE SITE
+# MARVEL MOVIE SITE <br />
 
 [프로젝트 링크](https://eunbiro.github.io/team4_mini/)
 
 <br /><br />
 
-## TEAM PROJECT<br />
-<br />
+## TEAM PROJECT <br />
+
 #### 기간 : 22.10.21 ~ 22.11.07
 <br /><br />
-<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">
+
 팀원 : <br />
-노은비 [<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/eunbiro)<br />
-조욱진 [<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/Ukzi)<br />
-권수경 [<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/rosencrantz96)<br />
-김정환 [<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/andy981217)<br />
-신초아 [<img src="https://img.shields.io/badge/GitHub-#181717?style=for-the-badge&logo=GitHub&logoColor=white">](https://github.com/chdk0842)<br />
+노은비 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/eunbiro)<br />
+조욱진 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Ukzi)<br />
+권수경 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/rosencrantz96)<br />
+김정환 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/andy981217)<br />
+신초아 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/chdk0842)<br />
 
 <br /><br />
 
