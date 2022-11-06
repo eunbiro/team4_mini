@@ -1,7 +1,7 @@
 # MARVEL MOVIE SITE
 [프로젝트 링크](https://eunbiro.github.io/team4_mini/)
 
-##TEAM PROJECT
+## TEAM PROJECT
 
 기간 : 22.10.21 ~ 22.11.07
 
@@ -16,23 +16,23 @@
 
 
 
-##기획 배경 및 목적 :<br />
+## 기획 배경 및 목적 :<br />
 [MARVEL 공식사이트](https://www.marvel.com/)에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
 
 
 
-##기능 요약 : <br />
+## 기능 요약 : <br />
 (백엔드는 아직 배우지 않았으므로 모든 것은 프론트엔드 기준으로 작동한다.)<br />
-로그인/회원가입<br />
-현재까지 개봉한 영화들의 서로 연관성과 세계관 소개<br />
-영화 관련 OST나 가수들을 소개하는 뉴스페이지<br />
-영화 별 캐릭터 소개<br />
-앞으로 개봉 할 영화소개 및 기본배경<br />
-영화 명장면을 담은 영화클립 갤러리 페이지<br />
+* 로그인/회원가입<br />
+* 현재까지 개봉한 영화들의 서로 연관성과 세계관 소개<br />
+* 영화 관련 OST나 가수들을 소개하는 뉴스페이지<br />
+* 영화 별 캐릭터 소개<br />
+* 앞으로 개봉 할 영화소개 및 기본배경<br />
+* 영화 명장면을 담은 영화클립 갤러리 페이지<br />
 
 
 
-##개발 과정 : <br />
+## 개발 과정 : <br />
 10월 21~24일 개발사이트 탐색<br />
 10월 ~ 24일 개발페이지 분담<br />
 10월 ~ 26일 스토리 보드 작성<br />
@@ -42,7 +42,7 @@
 
 
 
-##개발 페이지 : <br />
+## 개발 페이지 : <br />
 노은비 : 
 [index.html](https://eunbiro.github.io/team4_mini/), 
 [marvel_movieClip.html](https://eunbiro.github.io/team4_mini/pages/marvel_movieClip.html)<br />
@@ -67,8 +67,8 @@
 [news.html](https://eunbiro.github.io/team4_mini/pages/news.html), 
 [new_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
 
-
-
+<br />
+<br />
 
 
 ## 개발 후기 : <br />
