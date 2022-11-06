@@ -9,6 +9,9 @@
 #### 기간 : 22.10.21 ~ 22.11.07
 <br /><br />
 
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+
 팀원 : <br />
 노은비 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/eunbiro)<br />
 조욱진 [<img src="https://img.shields.io/badge/github-#181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Ukzi)<br />
