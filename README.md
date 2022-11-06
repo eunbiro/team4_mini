@@ -9,10 +9,10 @@
 노은비 [노은비 github](https://github.com/eunbiro)
 
 조원 : 
-조욱진 [조욱진 github](https://github.com/Ukzi)
-권수경 [권수경 github](https://github.com/rosencrantz96)
-김정환 [김정환 github](https://github.com/andy981217)
-신초아 [신초아 github](https://github.com/chdk0842)
+조욱진 [조욱진 github](https://github.com/Ukzi)<br />
+권수경 [권수경 github](https://github.com/rosencrantz96)<br />
+김정환 [김정환 github](https://github.com/andy981217)<br />
+신초아 [신초아 github](https://github.com/chdk0842)<br />
 
 ##기획 배경 및 목적 :
 [MARVEL 공식사이트](https://www.marvel.com/) 마블 공식사이트에 코믹스, 드라마, 영화가 섞여있는 것을 보고 영화만 전문적으로 소개하는 사이트를 만들어보자는 계기로 시작하게 됨
