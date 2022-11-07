@@ -3343,7 +3343,7 @@ table.alt tbody tr td {
   height: 100%;
   background-color: #212931;
   opacity: 0.5;
-  background-image: url('../../images/overlay.png'),
+  background-image: url('../img/worldview_overlay.png'),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url('../img/worldview_phase_background.jpg');
   background-size: auto, auto, 100% auto;
