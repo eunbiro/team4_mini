@@ -70,6 +70,7 @@
       if (
         browser.name == 'ie' || // IE
         browser.name == 'edge' || // Edge
+        browser.name == 'chrome' ||
         window.devicePixelRatio > 1 || // Retina/HiDPI (= poor performance)
         browser.mobile
       )
