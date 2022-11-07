@@ -1,17 +1,17 @@
 
 var swiper = new Swiper(".mySwiper", {
-    navigation: {
+  navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-    },
-    pagination: {
+  },
+  pagination: {
       el: ".swiper-pagination",
-    },
-    autoplay: {
-      delay: 2500,
-    },
+  },
+  autoplay: {
+    delay: 2500,
+  },
     speed: 800
-  });
+});
 
 
 
