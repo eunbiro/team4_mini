@@ -78,7 +78,7 @@
 [introduce_characters.html](https://eunbiro.github.io/team4_mini/pages/introduce_characters.html)<br />
 신초아 : 
 [news.html](https://eunbiro.github.io/team4_mini/pages/news.html), 
-[new_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
+[news_con.html](https://eunbiro.github.io/team4_mini/pages/news_con.html)<br />
 
 <br /><br />
 
