@@ -215,6 +215,7 @@ section .con {
 
 .essential_poster h3 {
     padding: 5px 0 5px;
+    padding-bottom: 30px;
     font-weight: bold;
     letter-spacing: 0.5px;
     color: #fff;
@@ -266,6 +267,7 @@ section .con {
 
 .mv_poster h3 {
     padding: 5px 0 5px;
+    padding-bottom: 30px;
     font-weight: bold;
     letter-spacing: 0.5px;
     color: #fff;

@@ -2,7 +2,7 @@
 @import url('./common.css');
 
 .wrap {
-  /* background-color: #151515; */
+  background-color: #151515;
   padding-top: 100px;
 }
 
@@ -70,9 +70,7 @@ section .con {
   height: 605px;
 }
 
-/* .youtube__content {
-    background-color: #5a5a5a;
-} */
+
 
 /* ============================== */
 .release {
@@ -96,6 +94,7 @@ section .con {
     margin-bottom: 10px;
     color: #fff;
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .rel_poster {
@@ -138,6 +137,7 @@ section .con {
     display: none;
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
     transition: all 0.2s linear;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .rel_poster img {
@@ -165,6 +165,7 @@ section .con {
     margin-bottom: 10px;
     color: #fff;
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .mv_poster {
@@ -178,6 +179,8 @@ section .con {
 
 .mv_poster > div {
     position: relative;
+    width: 270px;
+    height: 330px;
 }
 
 .mv_poster h3 {
@@ -186,9 +189,11 @@ section .con {
     letter-spacing: 0.5px;
     color: #fff;
     width: 270px;
-    top: 107%;
-    left: -30%;
+    height: 40px;
+    top: 85%;
+    /* left: -30%; */
     text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .mv_poster img {
@@ -224,6 +229,7 @@ section .con {
     padding: 20px 0px 20px;
     color: #fff;
     text-shadow: 0 0 15px rgba(236, 29, 36,.5), 0 0 10px rgba(236, 29, 36,.5);
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .store_list ul {
@@ -232,6 +238,7 @@ section .con {
     justify-content: space-around;
     padding: 0px 20px 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .store_list img {
@@ -268,9 +275,9 @@ section .con {
         background-position:center;
     }
 
-    .youtube {
+    /* .youtube {
         height: 350px;
-    }
+    } */
 
     .release {
         height: 550px;
@@ -287,6 +294,7 @@ section .con {
     
     .rel_poster .ov_poster {
         text-align: center;
+        width: 220px;
     }
 
     .rel_poster .ov_poster h3 {
@@ -295,6 +303,7 @@ section .con {
 
     .rel_poster .ov_poster p {
         font-size: 0.9rem;
+        width: 220px;
     }
     
     .poster {
@@ -304,21 +313,25 @@ section .con {
     .mv_poster {
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* height: 600px; */
     }
 
     .mv_poster h3 {
         font-size: 0.9rem;
-        top: 96%;
-        left: 5%;
+        width: 180px;
+        top: 80%;
     }
     
     .mv_poster > div {
-        width: 49%;
+        width: 180px;
+        height: 260px;
     }
     
     .mv_poster img {
         height: 200px;
-        margin-top: 30px;
+        /* margin-top: 30px; */
         margin-bottom: 20px;
     }
 
@@ -327,12 +340,16 @@ section .con {
     }
 
     .store__list ul {
-        flex-wrap: wrap;
         line-height: 50px;
         padding: 0px 10px 30px;
     }
 
     .store_list li {
         width: 33.33%;
+        margin-bottom: 10px;
+    }
+
+    .store_list img {
+        height: 100px;
     }
 }
