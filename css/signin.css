@@ -47,7 +47,7 @@ ul li{
     height: 125px;
     margin: 0 auto;
 }
-#signup2 p{
+#signup2 b{
     font-size: 0.7rem;
 }
 #signup2_checkbox2 a{
@@ -61,6 +61,7 @@ ul li{
     padding: 10px;
     color: rgba(108, 108, 108, 0.623);
 }
+
 #submit{
    text-align: center;
    height: 100px;
